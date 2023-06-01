@@ -37,113 +37,145 @@
 
         <!-- header session -->
         <header>
-            <div id="header_mail">
+            <div id="Hesder_store">
+                <p>Funiture Store</p>
+            </div>
+            <div id="header_mail" class="mt-3">
                 <p><i class="fa-regular fa-envelope"></i>funiture@domain.com</p>
             </div>
-            <div>
+            <div id="header_text" class="mt-3">
                 <p>Free shipping for all ordes over $500+</p>
             </div>
             <div id="header_icon">
                 <ul>
-                    <li data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Go to facebook"><i
-                            class="fa-brands fa-facebook-f"></i></li>
+                    <a href="https://web.facebook.com/?_rdc=1&_rdr">
+                        <li data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Go to facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </li>
+                    </a>
                     <li><i class="fa-brands fa-twitter"></i></li>
                     <li><i class="fa-brands fa-instagram"></i></li>
-                    <li><i class="fa-brands fa-pinterest-p"></i></li>
+                    <li id="small_pinterest"><i class="fa-brands fa-pinterest-p"></i></li>
                 </ul>
             </div>
         </header>
     </div>
 
-        <!-- start log session -->
+    <!-- start log session -->
 
-        <div class="container-fluid">
-            <div class="row" id="main_logo_session">
-                <div class="col-md-3" id="logo_img">
-                    <img src="./images/chare_logo.png" alt="">
-                </div>
-                <div class="col-md-6" id="logo_search_bar">
-                    <input type="text" name="" id="" placeholder="Type Here.....">
-                </div>
-                <div class="col-md-3" id="logo_login_session">
-                    <a href="./login.html">login</a>
-                    <a href="" style="margin-left: 1rem;">cart <i class="fa-solid fa-cart-shopping" style="margin-left: 0.3rem;"></i></a>
-                </div>
+    <div class="container-fluid">
+        <div class="row" id="main_logo_session">
+            <div class="col-md-3 col-12" id="logo_img">
+                <img src="./images/chare_logo.png" alt="">
+            </div>
+            <div class="col-md-6 col-12" id="logo_search_bar">
+                <input type="text" name="" id="" placeholder="Type Here.....">
+            </div>
+            <div class="col-md-3 col-12" id="logo_login_session">
+                <a href="./login.html"><i class="fa-solid fa-right-from-bracket" style="margin-right: 0.3rem;">
+                    </i> login</a>
+                <a href="" style="margin-left: 1rem;">cart <i class="fa-solid fa-cart-shopping"
+                        style="margin-left: 0.3rem;"></i></a>
             </div>
         </div>
+    </div>
 
-        <!-- end log session -->
+    <!-- end log session -->
 
-        <!-- navbar llarger screen session -->
-        <nav class="navbar bg-light" id="main_nav1">
-            <div class="container-fluid" id="Nav_link">
-                <a class="" href="#">Home</a>
-                <a class="" href="#">about us</a>
-                <a class="" href="#">pages</a>
-                <a class="" href="#">shop</a>
-                <a class="" href="#">blog</a>
-                <a class="" href="#">living room</a>
-                <a class="" href="#">gallery</a>
-                <a class="" href="#">contact</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
+    <!-- navbar llarger screen session -->
+    <nav class="navbar bg-light" id="main_nav1">
+        <div class="container-fluid" id="Nav_link">
+            <li>
+                <i class="fa-solid fa-house"></i>
+                <a class="active" onclick="changeColor(this)" href="#">Home</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-circle-info"></i>
+                <a class="" onclick="changeColor(this)" href="#">about us</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-boxes-stacked"></i>
+                <a class="" onclick="changeColor(this)" href="#">pages</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-shop"></i>
+                <a class="" onclick="changeColor(this)" href="#">shop</a>
+            </li>
+            <li>
+                <i class="fa-brands fa-blogger"></i>
+                <a class="" onclick="changeColor(this)" href="#">blog</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-bed"></i>
+                <a class="" onclick="changeColor(this)" href="#">living room</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-images"></i>
+                <a class="" onclick="changeColor(this)" href="#">gallery</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-square-phone"></i>
+                <a class="" onclick="changeColor(this)" href="#">contact</a>
+            </li>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
 
-                    <div class="offcanvas-body">
-                        <!-- Section: Images -->
-                        <section class="">
-                            <h1>video</h\6>
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-12 mb-4 mb-lg-0" id="setVideo">
-                                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
-                                            data-ripple-color="light">
-                                            <img src="./images/IDK_1.jpg" class="w-100" />
-                                            <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
-                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 mb-4 mb-lg-0" id="setVideo">
-                                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
-                                            data-ripple-color="light">
-                                            <img src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-2.webp"
-                                                class="w-100" />
-                                            <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
-                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12 mb-4 mb-lg-0 mt-3">
-                                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
-                                            data-ripple-color="light">
-                                            <img src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-3.webp"
-                                                class="w-100" />
-                                            <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
-                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
-                                                </div>
-                                            </a>
-                                        </div>
+                <div class="offcanvas-body">
+                    <!-- Section: Images -->
+                    <section class="">
+                        <h1>video</h\6>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 mb-4 mb-lg-0" id="setVideo">
+                                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                        data-ripple-color="light">
+                                        <img src="./images/IDK_1.jpg" class="w-100" />
+                                        <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
-                        </section>
-                        <!-- Section: Images -->
+
+                                <div class="col-lg-6 mb-4 mb-lg-0" id="setVideo">
+                                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                        data-ripple-color="light">
+                                        <img src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-2.webp"
+                                            class="w-100" />
+                                        <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 mb-4 mb-lg-0 mt-3">
+                                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                        data-ripple-color="light">
+                                        <img src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-3.webp"
+                                            class="w-100" />
+                                        <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
+                    <!-- Section: Images -->
 
 
-                        <!-- Gallery -->
-                        <div class="row">
-                            <h6>images gallery</h6>
-                            <!-- <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <!-- Gallery -->
+                    <div class="row">
+                        <h6>images gallery</h6>
+                        <!-- <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                                 
                                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
                                     class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
@@ -152,45 +184,135 @@
                                     class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
                             </div> -->
 
-                            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                                <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
-                                    data-ripple-color="light">
-                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                                        class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
-                                    <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModalimg1">
-                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-                                    </a>
-
-
-                                </div>
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
-                            </div>
-
-                            <div class="col-lg-4 mb-4 mb-lg-0">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
-
+                        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                            <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                data-ripple-color="light">
                                 <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
                                     class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
-                            </div>
+                                <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModalimg1">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                </a>
 
-                            <div class="col-lg-4 mb-4 mb-lg-0">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
 
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
                             </div>
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                                class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
                         </div>
-                        <!-- Gallery -->
 
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                                class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                                class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+                        </div>
+
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                                class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                                class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+                        </div>
                     </div>
+                    <!-- Gallery -->
+
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
 
 
+    <!-- small nav bar -->
+
+    <nav class="navbar navbar-expand-lg bg-light" id="small_nav_setting">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" id="small_nav_link">
+                    <li class="nav-item">
+                        <a class="active" onclick="changeColor(this)" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="" onclick="changeColor(this)" href="#">Features</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="" onclick="changeColor(this)" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item mt-2">
+                        <a class="" onclick="changeColor(this)">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end small navbar -->
+
+
+    <!-- banner start now -->
+    <div class="container-fluid" id="main_banner_session">
+        <div class="row" id="inner_banner_session">
+            <div class="col-md-6" id="banner_text">
+                <h3>STYLISH FURNITURE 
+                    IN UNIQUE STYLE
+                </h3>
+                <h6>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</h6>
+                <button>Shop Now</button>
+
+            </div>
+            <div class="col-md-6" id="banner_session">
+                
+                <img src="./images/banner_chair.avif" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- banner end now -->
+
+
+    <!-- start cart -->
+    <div class="container-fluid" id="space_define">
+        <h1>BEST SELLING</h1>
+        <div class="row">
+            <div class="col-md-3" id="cart_image">
+                <a href="">
+                    <img src="./images/cartlist1/chair11.png" alt="">
+                    <h6>chair WOOD</h6>
+                    <p>$120.00</p>
+                    <button id="BTN_cart">ADD TO CART</button>
+                </a>
+            </div>
+            <div class="col-md-3" id="cart_image">
+                <a href="">
+                    <img src="./images/cartlist1/sofa2.png" alt="">
+                    <h6>LOUNGE SOFA</h6>
+                    <p>$120.00</p>
+                    <button id="BTN_cart">ADD TO CART</button>
+                </a>
+            </div>
+            <div class="col-md-3" id="cart_image">
+                <a href="">
+                    <img src="./images/cartlist1/lamp.png" alt="">
+                    <h6>Deco Lamp</h6>
+                    <p>$120.00</p>
+                    <button id="BTN_cart">ADD TO CART</button>
+                </a>
+            </div>
+            <div class="col-md-3" id="cart_image">
+                <a href="">
+                    <img src="./images/cartlist1/table.png" alt="">
+                    <h6>TABLE WOOD</h6>
+                    <p>$120.00</p>
+                    <button id="BTN_cart">ADD TO CART</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- end cart -->
 
 
 
@@ -212,6 +334,15 @@
     <script>
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+
+        function changeColor(link) {
+            var links = document.getElementsByTagName('a');
+            for (var i = 0; i < links.length; i++) {
+                links[i].classList.remove('active');
+            }
+            link.classList.add('active');
+        }
     </script>
 </body>
 

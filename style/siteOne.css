@@ -11,11 +11,24 @@ body {
 /* start header style */
 header {
     background-color: #01321f;
-    padding: 0rem;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* height: 3rem; */
+     padding: 0rem 3rem;
+    /*display: flex;
     height: 50px;
     justify-content: space-around;
-    align-items: end;
+    align-items: end; */
+}
+#Hesder_store{
+    display: none;
+}
+#Hesder_store p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
 }
 
 header p {
@@ -25,10 +38,10 @@ header p {
 
 #header_icon ul {
     display: flex;
-    margin-top: 2rem !important;
+    /* margin-top: 2rem !important; */
 }
 
-#header_icon ul li {
+#header_icon ul li{
     list-style-type: none;
     color: black;
     text-align: center;
@@ -40,8 +53,13 @@ header p {
     background-color: white;
 }
 
+#header_icon ul li a{
+    color: black;
+    text-decoration: none;
+}
+
 #header_icon ul li:hover {
-    background-color: #01321f;
+    background-color: #01321f !important;
     color: #b8860b;
     border: 1px solid #b8860b;
 }
@@ -52,7 +70,7 @@ header p {
 
 .tooltip .tooltip-inner {
     margin-top: 0.6rem;
-    background-color: #b8860b;
+    background-color: #01321f;
 }
 
 #header_mail p i{
@@ -95,6 +113,18 @@ header p {
     color:#b8860b !important;
     border-bottom: 1px solid #b8860b;
 }
+#Nav_link li{
+    list-style-type: none;
+}
+#Nav_link i{
+    color: #01321f;
+    font-size: 1.2rem;
+}
+.active{
+    color:#b8860b !important;
+    border-bottom: 1px solid #b8860b;
+}
+
 
 
 /* logo session start */
@@ -144,13 +174,183 @@ header p {
 /* end session start */
 
 
+/* small nav start */
+#small_nav_setting{
+    display: none;
+}
+#small_nav_link li a{
+    font-size: 1.1rem;
+    color: #01321f;
+    font-weight: 500;
+}
+/* small nav end */
+
+
+
+/* banner session start */
+#inner_banner_session{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#banner_text{
+    padding: 0rem 0rem 0rem 4rem;
+}
+#banner_text h3{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 600;
+    color: #01321f;
+    width: 70%;
+}
+
+#banner_text h6{
+    font-size: 1rem;
+    width: 70%;
+    color: #01321f;
+}
+#banner_text button{
+    margin-top: 2rem;
+    padding: 0.4rem 3rem;
+    background-color: #01321f;
+    border-radius: 0.4rem;
+    color: white;
+    border: none;
+}
+#banner_text button:hover{
+    background-color: #b8860b;
+}
+
+#banner_session img{
+    width: 100%;
+}
+/* banner session end */
+
+
+/* start cart img */
+
+#cart_image img{
+    width: 100%;
+    border-radius: 0.4rem;
+    height: 50vh;
+}
+#cart_image{
+    text-align: center;
+}
+#cart_image h6{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #01321f;
+    text-transform: capitalize;
+    margin: 1rem 0rem 0rem 0rem;text-decoration: none;
+}
+#cart_image p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #01321f;
+    margin: 1rem 0rem 0rem 0rem;
+}
+#cart_image button{
+    color: white;
+    background-color: #01321f;
+    padding: 0.4rem 2.5rem;
+    border: none;
+    border-radius: 0.4rem;
+}
+#cart_image a:hover #BTN_cart{
+    color: white;
+    background-color:#b8860b;
+}
+#cart_image button:hover{
+    color: white;
+    background-color:#b8860b;
+}
+#space_define{
+    margin: 2rem 0rem;
+    padding: 0rem 3rem;
+}
+
+#space_define h1{
+    text-align: center;
+    padding: 1rem 0rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #01321f;
+    text-decoration: underline;
+}
+
+/* end cart img */
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive */
 
 @media(min-width:280px) and (max-width:540px) {
+    #space_define{
+        margin: 2rem 0rem;
+        padding: 0rem 1rem;
+    }
+    #cart_image{
+        margin-top: 1rem;
+    }
+    #banner_text h3{
+        width: 100%;
+    }
+    #inner_banner_session{
+        margin-top: 2rem;
+    }
+    
+    #banner_text h6{
+        width: 100%;
+    }
+    #banner_text{
+        padding: 1rem;
+    }
     header {
-        display: none !important;
+        /* display: none !important; */
+        padding: 0rem 1rem;
+    }
+    #small_pinterest{
+        display: none;
+    }
+    #header_text p{
+        display: none;
+    }
+    #header_mail{
+        display: none;
     }
     #main_nav1{
         display: none;
     }
+    #main_logo_session{
+        padding:0rem 1rem;
+    }
+    #logo_search_bar input{
+        width: 100%;
+    }
+    #logo_login_session{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 1rem 0rem;
+    }
+    #Hesder_store{
+        display: block;
+        padding-top: 0.7rem;
+    }
+    #small_nav_setting{
+        display: block;
+    }
+    
 }
