@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* start header style */
+header {
+    background-color: #01321f;
+    padding: 0rem;
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: end;
+}
+
+header p {
+    color: rgba(250, 243, 243, 0.842);
+    font-size: 0.9rem;
+}
+
+#header_icon ul {
+    display: flex;
+    margin-top: 2rem !important;
+}
+
+#header_icon ul li {
+    list-style-type: none;
+    color: black;
+    text-align: center;
+    border: 1px solid silver;
+    margin: 0.9rem 0.6rem 0rem 0.6rem;
+    border-radius: 3rem;
+    width: 27px;
+    height: 27px;
+    background-color: white;
+}
+
+#header_icon ul li:hover {
+    background-color: #01321f;
+    color: #b8860b;
+    border: 1px solid #b8860b;
+}
+
+#header_icon ul li i {
+    font-size: 0.8rem !important;
+}
+
+.tooltip .tooltip-inner {
+    margin-top: 0.6rem;
+    background-color: #b8860b;
+}
+
+#header_mail p i{
+    margin-right: 0.4rem;
+}
+
+
+/* end header style */
+
+
+
+#setVideo img {
+    height: 30vh;
+}
+
+
+/* navbar start */
+#main_nav1{
+    padding: 0.8rem 3rem;
+}
+#Nav_link a{
+    text-decoration: none;
+    font-size: 1rem;
+    /* padding: 0.3rem 3rem; */
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #01321f;
+}
+
+#Nav_link a:hover{
+    text-decoration: none;
+    font-size: 1rem;
+    /* padding: 0.3rem 3rem; */
+    font-weight: 600;
+    text-transform: capitalize;
+    color:#b8860b;
+    border-bottom: 1px solid #b8860b;
+}
+#Nav_link a:active{
+    color:#b8860b !important;
+    border-bottom: 1px solid #b8860b;
+}
+
+
+/* logo session start */
+#main_logo_session{
+    padding:0rem 3rem;
+    background-color:#b8860b;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+
+}
+#logo_img img{
+    width: 100%;
+    height: 30vh;
+}
+#logo_search_bar{
+    text-align: center;
+}
+#logo_search_bar input{
+    width: 80%;
+    padding: 0.5rem 1rem;
+    background-color: #01321f;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    outline: none;
+}
+#logo_search_bar input::placeholder{
+    color: white;
+}
+#logo_login_session a{
+    border: 1px solid #01321f;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.6rem 2rem;
+    text-transform: capitalize;
+    border-radius: 0.3rem;
+    background-color: #01321f;
+}
+#logo_login_session a:hover{
+    background-color: #b8860b;
+}
+
+
+/* end session start */
+
+
+/* responsive */
+
+@media(min-width:280px) and (max-width:540px) {
+    header {
+        display: none !important;
+    }
+    #main_nav1{
+        display: none;
+    }
+}
