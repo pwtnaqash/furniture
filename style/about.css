@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main_about_page{
+    padding: 7rem 3rem;
+}
+#main_about_page_img img{
+    width: 100%;
+    border-radius: 0.3rem;
+}
+#main_about_page_text{
+    padding: 0rem 2rem;
+    text-transform: capitalize;
+}
+#main_about_page_text h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #01321f;
+    text-decoration: underline;
+}
+
+#main_about_page_text button{
+    background-color: #01321f;
+    color: white;
+    padding: 0.5rem 3rem;
+    border: 1px solid #01321f;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 0.4rem;
+}
+
+#main_about_page_text button:hover{
+    background-color: #b8860b;
+    border: 1px solid #b8860b;
+}
+#find_furniture{
+    margin-top: 7rem;
+}
+#find_furniture_about_cart{
+    border: 1px solid #01321f;
+    text-align: center;
+    padding: 1rem 0rem;
+    border-radius: 0.3rem;
+}
+#find_furniture_about_cart h2{
+    font-size: 1.3rem;
+    margin-top: 0.9rem;
+    text-transform: uppercase;
+}
+#find_furniture_about_cart{
+    margin-top: 1rem;
+}
+
+#find_furniture_about_cart:hover{
+    background-color: #01321f;
+    color: white;
+}
+
+
+
+
+
+
+@media(min-width:280px) and (max-width:540px){
+    #main_about_page{
+        padding: 5rem 1rem;
+    }
+    #main_about_page_text{
+        padding: 2rem 0rem;
+    }
+    #find_furniture{
+        padding: 0rem 0rem;
+    }
+    
+}

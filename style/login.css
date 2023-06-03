@@ -67,7 +67,7 @@ body{
 }
 #inner_login_page form button{
     width: 100%;
-    padding: 0.2rem;
+    padding: 0.6rem;
     border: 1px solid #eeeeee;
     background-color: #01321f;
     color: white;
@@ -78,7 +78,7 @@ body{
 }
 #inner_login_page form button:hover{
     width: 100%;
-    padding: 0.2rem;
+    padding: 0.6rem;
     color: white    ;
     border: 1px solid #eeeeee;
     background-color: #b8860b;
@@ -151,4 +151,10 @@ body{
 }
 #sign_up_main_page label{
     margin-top: 2rem !important;
+}
+
+@media(min-width:280px) and (max-width:540px){
+    #Sing_button{
+        width: 100% !important;
+    }
 }
