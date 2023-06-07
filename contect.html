@@ -84,145 +84,106 @@
     <!-- end log session -->
 
     <!-- navbar llarger screen session -->
-    <nav class="navbar bg-light" id="main_nav1">
-        <div class="container-fluid" id="Nav_link">
-            <li>
-                <i class="fa-solid fa-house"></i>
-                <a class="" onclick="changeColor(this)" href="./index.html">Home</a>
-            </li>
-            <li>
-                <i class="fa-solid fa-circle-info"></i>
-                <a class="" onclick="changeColor(this)" href="./about.html">about us</a>
-            </li>
-            <li>
+    <div class="HeaderNav">
+        <nav class="navbar bg-light" id="main_nav1">
+            <div class="container-fluid" id="Nav_link">
+                <li>
+                    <i class="fa-solid fa-house"></i>
+                    <a class="" onclick="changeColor(this)" href="./index.html">Home</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle-info"></i>
+                    <a class="" onclick="changeColor(this)" href="./about.html">about us</a>
+                </li>
+                <!-- <li>
                 <i class="fa-solid fa-boxes-stacked"></i>
                 <a class="" onclick="changeColor(this)" href="#">pages</a>
-            </li>
-            <li>
-                <i class="fa-solid fa-shop"></i>
-                <a class="" onclick="changeColor(this)" href="#">shop</a>
-            </li>
-            <li>
-                <i class="fa-brands fa-blogger"></i>
-                <a class="" onclick="changeColor(this)" href="#">blog</a>
-            </li>
-            <li>
-                <i class="fa-solid fa-bed"></i>
-                <a class="" onclick="changeColor(this)" href="#">living room</a>
-            </li>
-            <li>
-                <i class="fa-solid fa-images"></i>
-                <a class="" onclick="changeColor(this)" href="#">gallery</a>
-            </li>
-            <li>
-                <i class="fa-solid fa-square-phone"></i>
-                <a class="active" onclick="changeColor(this)" href="./contect.html">contact</a>
-            </li>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-
-                <div class="offcanvas-body">
-                    <!-- Section: Images -->
-                    <section class="">
-                        <h1>video</h\6>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-12 mb-4 mb-lg-0" id="setVideo">
-                                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
-                                        data-ripple-color="light">
-                                        <img src="./images/IDK_1.jpg" class="w-100" />
-                                        <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
-                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6 mb-4 mb-lg-0" id="setVideo">
-                                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
-                                        data-ripple-color="light">
-                                        <img src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-2.webp"
-                                            class="w-100" />
-                                        <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
-                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 mb-4 mb-lg-0 mt-3">
-                                    <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
-                                        data-ripple-color="light">
-                                        <img src="https://mdbcdn.b-cdn.net/img/screens/yt/screen-video-3.webp"
-                                            class="w-100" />
-                                        <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
-                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                    </section>
-                    <!-- Section: Images -->
-
-
-                    <!-- Gallery -->
-                    <div class="row">
-                        <h6>images gallery</h6>
-                        <!-- <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                                
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
-    
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-                                    class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
-                            </div> -->
-
-                        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                            <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
-                                data-ripple-color="light">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                                    class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
-                                <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModalimg1">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
-                                </a>
-
-
-                            </div>
-                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-                                class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
-                        </div>
-
-                        <div class="col-lg-4 mb-4 mb-lg-0">
-                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-                                class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
-
-                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                                class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
-                        </div>
-
-                        <div class="col-lg-4 mb-4 mb-lg-0">
-                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-                                class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
-
-                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-                                class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
-                        </div>
+            </li> -->
+                <li>
+                    <i class="fa-solid fa-shop"></i>
+                    <a class="" onclick="changeColor(this)" href="./shop.html">shop</a>
+                </li>
+                <li>
+                    <i class="fa-brands fa-blogger"></i>
+                    <a class="" onclick="changeColor(this)" href="./blog.html">blog</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-bed"></i>
+                    <a class="" onclick="changeColor(this)" href="./livingRoom.html">living room</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-images"></i>
+                    <a class="" onclick="changeColor(this)" href="./gallary.html">gallery</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-square-phone"></i>
+                    <a class="active" onclick="changeColor(this)" href="./contect.html">contact</a>
+                </li>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Videos</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <!-- Gallery -->
 
+
+                    <div class="offcanvas-body">
+                        <!-- Modal gallery -->
+                        <section class="">
+                            <!-- Section: Images -->
+                            <section class="">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                            data-ripple-color="light">
+                                            <img src="./images/chare_logo.png" class="w-100" />
+                                            <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                            data-ripple-color="light">
+                                            <img src="./images/banner_chair.avif" class="w-100" />
+                                            <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal2">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                            data-ripple-color="light">
+                                            <img src="./images/lpk15.jpg" class="w-100" />
+                                            <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal3">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- Section: Images -->
+
+
+                        </section>
+                        <!-- Modal gallery -->
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
+    </div>
+
+    <!-- end navbar llarger screen session -->
 
     <!-- small nav bar -->
 
@@ -280,70 +241,70 @@
                         </div>
 
                         <div class="col-md-6">
-                           <div class="col-md-12" id="time_setting">
-                            <span id="time_setting_icon">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </span>
-                            <span id="time_setting_text">
-                                <h6>phone number</h6>
-                                <p>+923070469098</p>
-                            </span>
-                           </div>
+                            <div class="col-md-12" id="time_setting">
+                                <span id="time_setting_icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </span>
+                                <span id="time_setting_text">
+                                    <h6>phone number</h6>
+                                    <p>+923070469098</p>
+                                </span>
+                            </div>
                         </div>
 
                         <div class="col-md-6">
                             <div class="col-md-12" id="time_setting">
-                             <span id="time_setting_icon">
-                                 <i class="fa-brands fa-facebook-f"></i>
-                             </span>
-                             <span id="time_setting_text">
-                                 <h6>our location</h6>
-                                 <p>jin sunset road, kuta</p>
-                             </span>
+                                <span id="time_setting_icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </span>
+                                <span id="time_setting_text">
+                                    <h6>our location</h6>
+                                    <p>jin sunset road, kuta</p>
+                                </span>
                             </div>
-                         </div>
+                        </div>
 
-                         <div class="col-md-6">
+                        <div class="col-md-6">
                             <div class="col-md-12" id="time_setting">
-                             <span id="time_setting_icon">
-                                 <i class="fa-brands fa-facebook-f"></i>
-                             </span>
-                             <span id="time_setting_text">
-                                 <h6>our email</h6>
-                                 <p>furniture@domain.com</p>
-                             </span>
+                                <span id="time_setting_icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </span>
+                                <span id="time_setting_text">
+                                    <h6>our email</h6>
+                                    <p>furniture@domain.com</p>
+                                </span>
                             </div>
-                         </div>
+                        </div>
 
-                         <div class="col-md-6">
+                        <div class="col-md-6">
                             <div class="col-md-12" id="time_setting">
-                             <span id="time_setting_icon">
-                                 <i class="fa-brands fa-facebook-f"></i>
-                             </span>
-                             <span id="time_setting_text">
-                                 <h6>our email</h6>
-                                 <p>furniture@domain.com</p>
-                             </span>
+                                <span id="time_setting_icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </span>
+                                <span id="time_setting_text">
+                                    <h6>our email</h6>
+                                    <p>furniture@domain.com</p>
+                                </span>
                             </div>
-                         </div>
+                        </div>
 
-                         <div class="col-md-6">
+                        <div class="col-md-6">
                             <div class="col-md-12" id="time_setting">
-                             <span id="time_setting_icon">
-                                 <i class="fa-brands fa-facebook-f"></i>
-                             </span>
-                             <span id="time_setting_text">
-                                 <h6>our email</h6>
-                                 <p>furniture@domain.com</p>
-                             </span>
+                                <span id="time_setting_icon">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </span>
+                                <span id="time_setting_text">
+                                    <h6>our email</h6>
+                                    <p>furniture@domain.com</p>
+                                </span>
                             </div>
-                         </div>
+                        </div>
 
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div  id="inner_login_page">
+                <div id="inner_login_page">
                     <!-- <h1>Sign up</h1> -->
                     <form action="" id="sign_up_main_page">
                         <div class="row">
@@ -362,7 +323,7 @@
                                     <input type="text" required name="password" id="password" placeholder="Type Name" />
                                 </div>
                             </div>
-        
+
                             <div class="col-md-6">
                                 <label for="email">Email</label>
                                 <div class="col-md-12 d-flex" id="main_input_filed">
@@ -375,10 +336,11 @@
                                 <label for="password">Phone</label>
                                 <div class="col-md-12" id="main_input_filed">
                                     <i class="fa-solid fa-phone"></i>
-                                    <input type="number" required name="password" id="password" placeholder="Type Phone Number" />
+                                    <input type="number" required name="password" id="password"
+                                        placeholder="Type Phone Number" />
                                 </div>
                             </div>
-                           
+
                             <div class="col-md-12">
                                 <label for="password">Message</label>
                                 <div class="col-md-12" id="main_input_filed">
@@ -387,7 +349,7 @@
                                         placeholder="Type User Message" />
                                 </div>
                             </div>
-        
+
                         </div>
                         <button id="Sing_button">send message</button>
                     </form>
@@ -396,7 +358,10 @@
         </div>
 
         <div class="col-md-12" id="contact_map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d108852.64967372711!2d74.3243776!3d31.506432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1685801974319!5m2!1sen!2s" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d108852.64967372711!2d74.3243776!3d31.506432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1685801974319!5m2!1sen!2s"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 

@@ -339,6 +339,11 @@ header p {
     padding: 0rem 2rem;
 }
 
+.HeaderNav{
+    position: sticky;
+    top: 0;
+}
+
 
 
 

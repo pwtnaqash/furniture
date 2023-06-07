@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    --mdb-card-box-shadow: none !important;
+    border: 1px solid #eeeeee !important;
+    margin-top: 2rem;
+    cursor: pointer;
+    z-index: -1;
+    margin-bottom: 3rem;
+}
+
+.card:hover .card-body a{
+    color: blue ;
+}
+
+.card-body a:hover{
+    color:#000000 !important;
+}
+
+.card img{
+    height: 35vh;
+}
+#card-body_blog{
+    padding: 1rem;
+}
+.card h6{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.card a{
+    text-transform:uppercase;
+    color:#000000;
+    font-weight: 400;
+}

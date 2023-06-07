@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#shopSmallCol h2{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+#shopSmallCol_product_category img{
+    width: 100%;
+    height: 20vh;
+}
+#shopSmallCol_product_category h6{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 0.8rem;
+    text-transform: uppercase;
+}
+#inner_product_category{
+    margin-top: 2rem;
+}
+
+#shoplargeCol input{
+    width: 50%;
+    padding: 0.3rem 1rem;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 0.3rem;
+}
+.inner_discount{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    margin: 9rem 0rem !important;
+}
+
+.inner_discount h3{
+    font-weight: 600;
+    color: black;
+}
+.inner_discount p{
+    padding: 0.5rem 19rem;
+}
+#inner_discount_btn{
+    border-bottom: 1px solid black;
+    width: 45%;
+    padding: 1rem 0rem;
+}
+
+#inner_discount_btn button{
+    background-color: #01321f;
+    padding: 0.4rem 2rem;
+    color: white;
+    border-radius: 0.3rem;
+    border: 1px solid white;
+}
+
+#inner_discount_btn input{
+    width: 74%;
+    padding: 0.4rem 1rem;
+    border: none;
+    outline: none;
+    /* text-decoration: underline; */
+}
+#inner_discount_btn input::placeholder{
+    text-decoration: none !important;
+}
+
+#space_define_shop{
+    padding: 5rem 0rem;
+}
+
+
+
+
+@media (min-width:280px) and (max-width:540px){
+    #shoplargeCol input{
+        width: 100%;
+    }
+    .inner_discount p{
+        padding: 0.5rem 1rem;
+    }
+    #inner_discount_btn{
+        width: 100%;
+    }
+    #inner_discount_btn input{
+        width: 50%;
+    }
+}
+
+
+@media (min-width:541px) and (max-width:1024px){
+    #inner_discount_btn{
+        width: 65%;
+    }
+    .inner_discount p{
+        padding: 0.5rem 7rem;
+    }
+    #inner_discount_btn input{
+        width: 60%;
+    }
+}

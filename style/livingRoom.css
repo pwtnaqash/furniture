@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#card-body_text p{
+    font-size: 0.9rem;
+}
+
+#livink_room_img img{
+    height: 50vh;
+}
