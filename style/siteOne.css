@@ -12,7 +12,7 @@ body {
 
 /* start header style */
 header {
-    background-color: #000000;
+    background-color: #dda547;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +25,7 @@ header {
 #Hesder_store p{
     font-size: 1.3rem;
     font-weight: 500;
-    color: white;
+    color: #e2d7cb;
 }
 
 header p {
@@ -47,11 +47,11 @@ header p {
     border-radius: 3rem;
     width: 27px;
     height: 27px;
-    background-color: white;
+    background-color: #e2d7cb;
 }
 
 #header_icon ul li a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -81,7 +81,8 @@ header p {
 
 
 #setVideo img {
-    height: 30vh;
+    height: 40rem !important;
+    /* width: 50%; */
 }
 
 
@@ -90,13 +91,14 @@ header p {
 /* navbar start */
 #main_nav1{
     padding: 1.2rem 3rem;
+    background-color: #bda68f;
 }
 #Nav_link a{
     text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
     text-transform: capitalize;
-    color: #000000;
+    color: white;
 }
 
 #Nav_link
@@ -115,12 +117,12 @@ header p {
     list-style-type: none;
 }
 #Nav_link i{
-    color: #000000;
+    color: white;
     font-size: 1.2rem;
 }
 .active{
-    color:#bda68f !important;
-    border-bottom: 1px solid #000000;
+    color:#e2d7cb !important;
+    border-bottom: 1px solid #e2d7cb;
 }
 
 
@@ -144,28 +146,34 @@ header p {
 #logo_search_bar input{
     width: 80%;
     padding: 0.5rem 1rem;
-    background-color: #000000;
+    background-color: #bda68f;
     border: none;
     border-radius: 0.5rem;
     color: white;
     outline: none;
 }
+
 #logo_search_bar input::placeholder{
     color: white;
 }
+#logo_login_session{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+}
 #logo_login_session a{
-    border: 1px solid #000000;
+    border: 1px solid #bda68f;
     text-decoration: none;
     color: white;
     font-size: 1rem;
     font-weight: 500;
-    padding: 0.6rem 2rem;
+    padding: 0.5rem 2rem;
     text-transform: capitalize;
     border-radius: 0.3rem;
-    background-color: #000000;
+    background-color: #bda68f;
 }
 #logo_login_session a:hover{
-    background-color: white;
+    background-color: #e2d7cb;
     color: #000000;
 }
 
@@ -192,12 +200,13 @@ header p {
     align-items: center;
     width: 100%;
     /* background-color: #e2d7cb; */
+    padding: 7rem 1rem;
 }
 #banner_text{
     padding: 0rem 0rem 0rem 4rem;
 }
 #banner_text h3{
-    font-size: 2.3rem;
+    font-size: 2rem;
     line-height: 3rem;
     font-weight: 600;
     color: #000000;
@@ -207,13 +216,13 @@ header p {
 #banner_text h6{
     font-size: 1rem;
     width: 70%;
-    color: #000000;
+    color: #bda68f;
 }
 #banner_text button{
     margin-top: 2rem;
     padding: 0.4rem 3rem;
-    background-color: #000000;
-    border: 1px solid #000000;
+    background-color: #bda68f;
+    border: 1px solid #bda68f;
     border-radius: 0.4rem;
     color: white;
 }
@@ -225,6 +234,7 @@ header p {
 
 #banner_session img{
     width: 100%;
+    border-radius: 0.3rem;
 }
 /* banner session end */
 
@@ -256,9 +266,9 @@ header p {
 }
 #cart_image button{
     color: white;
-    background-color: #000000;
+    background-color: #bda68f;
     padding: 0.4rem 2.5rem;
-    border: 1px solid #000000;
+    border: 1px solid #bda68f;
     border-radius: 0.4rem;
 }
 
@@ -400,7 +410,7 @@ header p {
 }
 #Lift_col2{
     /* background-color: #01321f; */
-    background-image: url('../images/md_cil/maz4.jpg');
+    background-image: url('../images/site/sofa.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 65vh;
