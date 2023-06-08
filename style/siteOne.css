@@ -132,11 +132,11 @@ header p {
     display: flex;
     justify-content:center ;
     align-items: center;
-
+    /* padding: 0rem; */
 }
 #logo_img img{
     width: 100%;
-    height: 30vh;
+    height: 40vh;
 }
 #logo_search_bar{
     text-align: center;
