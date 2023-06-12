@@ -87,7 +87,7 @@
 
     <!-- navbar llarger screen session -->
     <div class="HeaderNav">
-        <nav class="navbar bg-light" id="main_nav1">
+        <nav class="navbar" id="main_nav1">
             <div class="container-fluid" id="Nav_link">
                 <li>
                     <i class="fa-solid fa-house"></i>
@@ -123,7 +123,7 @@
                 </li>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fa-solid fa-bars-staggered fa-beat-fade" style="font-size: 1.8rem;"></i>
                 </button>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
@@ -190,26 +190,48 @@
 
     <!-- small nav bar -->
 
-    <nav class="navbar navbar-expand-lg bg-light" id="small_nav_setting">
+    <nav class="navbar navbar-expand-lg" id="small_nav_setting">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">
+                <h1>FURNITURE</h1>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav" id="small_nav_link">
-                    <li class="nav-item">
-                        <a class="active" onclick="changeColor(this)" aria-current="page" href="#">Home</a>
+                    <li>
+                        <i class="fa-solid fa-house"></i>
+                        <a class="" onclick="changeColor(this)" href="./index.html">Home</a>
                     </li>
-                    <li class="nav-item mt-2">
-                        <a class="" onclick="changeColor(this)" href="#">Features</a>
+                    <li>
+                        <i class="fa-solid fa-circle-info"></i>
+                        <a class="active" onclick="changeColor(this)" href="./about.html">about us</a>
                     </li>
-                    <li class="nav-item mt-2">
-                        <a class="" onclick="changeColor(this)" href="#">Pricing</a>
+                    <!-- <li>
+                    <i class="fa-solid fa-boxes-stacked"></i>
+                    <a class="" onclick="changeColor(this)" href="#">pages</a>
+                </li> -->
+                    <li>
+                        <i class="fa-solid fa-shop"></i>
+                        <a class="" onclick="changeColor(this)" href="./shop.html">shop</a>
                     </li>
-                    <li class="nav-item mt-2">
-                        <a class="" onclick="changeColor(this)">Disabled</a>
+                    <li>
+                        <i class="fa-brands fa-blogger"></i>
+                        <a class="" onclick="changeColor(this)" href="./blog.html">blog</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-bed"></i>
+                        <a class="" onclick="changeColor(this)" href="./livingRoom.html">living room</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-images"></i>
+                        <a class="" onclick="changeColor(this)" href="./gallary.html">gallery</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-square-phone"></i>
+                        <a class="" onclick="changeColor(this)" href="./contect.html">contact</a>
                     </li>
                 </ul>
             </div>
@@ -307,7 +329,7 @@
                     <h3>Lorem ipsum dolor sit.</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quidem doloribus perspiciatis
                         repellat repudiandae nulla accusantium temporibus tempore cum sed!</p>
-                    <a href=""><i class="fa-solid fa-hand-point-right fa-bounce"></i> about us</a>
+                    <a href="./about.html"><i class="fa-solid fa-hand-point-right fa-bounce"></i> about us</a>
                 </div>
             </div>
             <div class="col-md-4 col-lg-3 col-12 p-0" id="footer_text-link">
@@ -334,18 +356,23 @@
                 <ul>
                     <h2>QUICK LINKS</h2>
                     <li>
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
                         <a href="">Returns & refunds</a>
                     </li>
                     <li>
+                        <i class="fa-solid fa-basket-shopping"></i>
                         <a href="">Order tracking</a>
                     </li>
                     <li>
+                        <i class="fa-regular fa-thumbs-up"></i>
                         <a href="">checkout</a>
                     </li>
                     <li>
+                        <i class="fa-solid fa-toolbox"></i>
                         <a href="">careers</a>
                     </li>
                     <li>
+                        <i class="fa-solid fa-cart-arrow-down"></i>
                         <a href="">cart</a>
                     </li>
                 </ul>
@@ -354,18 +381,23 @@
                 <ul>
                     <h2>INFORMATION</h2>
                     <li>
+                        <i class="fa-solid fa-clipboard"></i>
                         <a href="">Privacy Policy</a>
                     </li>
                     <li>
+                        <i class="fa-regular fa-circle-check"></i>
                         <a href="">Terms Of Service</a>
                     </li>
                     <li>
+                        <i class="fa-solid fa-ban"></i>
                         <a href="">Disclaimer</a>
                     </li>
                     <li>
+                        <i class="fa-solid fa-credit-card"></i>
                         <a href="">Credits</a>
                     </li>
                     <li>
+                        <i class="fa-regular fa-circle-question"></i>
                         <a href="">FAQ</a>
                     </li>
                 </ul>
@@ -379,6 +411,24 @@
     </div>
     <!-- footer end -->
 
+
+
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+
+        function changeColor(link) {
+            var links = document.getElementsByTagName('a');
+            for (var i = 0; i < links.length; i++) {
+                links[i].classList.remove('active');
+            }
+            link.classList.add('active');
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"></script>
 
 </body>
 

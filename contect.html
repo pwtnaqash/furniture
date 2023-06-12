@@ -85,20 +85,20 @@
 
     <!-- navbar llarger screen session -->
     <div class="HeaderNav">
-        <nav class="navbar bg-light" id="main_nav1">
+        <nav class="navbar" id="main_nav1">
             <div class="container-fluid" id="Nav_link">
                 <li>
                     <i class="fa-solid fa-house"></i>
-                    <a class="" onclick="changeColor(this)" href="./index.html">Home</a>
+                    <a class="" onclick="changeColor(this)" href="#">Home</a>
                 </li>
                 <li>
                     <i class="fa-solid fa-circle-info"></i>
                     <a class="" onclick="changeColor(this)" href="./about.html">about us</a>
                 </li>
                 <!-- <li>
-                <i class="fa-solid fa-boxes-stacked"></i>
-                <a class="" onclick="changeColor(this)" href="#">pages</a>
-            </li> -->
+            <i class="fa-solid fa-boxes-stacked"></i>
+            <a class="" onclick="changeColor(this)" href="#">pages</a>
+        </li> -->
                 <li>
                     <i class="fa-solid fa-shop"></i>
                     <a class="" onclick="changeColor(this)" href="./shop.html">shop</a>
@@ -121,8 +121,10 @@
                 </li>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fa-solid fa-bars-staggered fa-beat-fade" style="font-size: 1.8rem;"></i>
+                    <!-- <span  class="navbar-toggler-icon"></span> -->
                 </button>
+
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
@@ -132,7 +134,7 @@
 
 
                     <div class="offcanvas-body">
-                        <!-- Modal gallery -->
+                        <!--start video Modal gallery -->
                         <section class="">
                             <!-- Section: Images -->
                             <section class="">
@@ -175,7 +177,54 @@
 
 
                         </section>
-                        <!-- Modal gallery -->
+                        <!-- end video Modal gallery -->
+
+                        <!-- start img Modal gallery -->
+                        <section class="" style="margin-top: 2rem;">
+                            <!-- Section: Images -->
+                            <h5>Images</h5>
+                            <section class="">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                            data-ripple-color="light">
+                                            <img src="./images/cartlist1/cart1.jpg" class="w-100" />
+                                            <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal4">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                            data-ripple-color="light">
+                                            <img src="./images/cartlist1/cart4.jpg" class="w-100" />
+                                            <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal5">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                            data-ripple-color="light">
+                                            <img src="./images/cartlist1/cart3.jpg" class="w-100" />
+                                            <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal6">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- Section: Images -->
+
+
+                        </section>
+                        <!-- end img Modal gallery -->
+
                     </div>
                 </div>
             </div>
@@ -185,28 +234,54 @@
 
     <!-- end navbar llarger screen session -->
 
+
+
+
     <!-- small nav bar -->
 
-    <nav class="navbar navbar-expand-lg bg-light" id="small_nav_setting">
+    <nav class="navbar navbar-expand-lg " id="small_nav_setting">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">
+                <h1>FURNITURE</h1>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fa-solid fa-bars-staggered fa-beat-fade" style="font-size: 1.8rem;color: white;"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav" id="small_nav_link">
-                    <li class="nav-item">
-                        <a class="active" onclick="changeColor(this)" aria-current="page" href="#">Home</a>
+                    <li>
+                        <i class="fa-solid fa-house"></i>
+                        <a class="" onclick="changeColor(this)" href="#">Home</a>
                     </li>
-                    <li class="nav-item mt-2">
-                        <a class="" onclick="changeColor(this)" href="#">Features</a>
+                    <li>
+                        <i class="fa-solid fa-circle-info"></i>
+                        <a class="" onclick="changeColor(this)" href="./about.html">about us</a>
                     </li>
-                    <li class="nav-item mt-2">
-                        <a class="" onclick="changeColor(this)" href="#">Pricing</a>
+                    <!-- <li>
+                <i class="fa-solid fa-boxes-stacked"></i>
+                <a class="" onclick="changeColor(this)" href="#">pages</a>
+            </li> -->
+                    <li>
+                        <i class="fa-solid fa-shop"></i>
+                        <a class="" onclick="changeColor(this)" href="./shop.html">shop</a>
                     </li>
-                    <li class="nav-item mt-2">
-                        <a class="" onclick="changeColor(this)">Disabled</a>
+                    <li>
+                        <i class="fa-brands fa-blogger"></i>
+                        <a class="" onclick="changeColor(this)" href="./blog.html">blog</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-bed"></i>
+                        <a class="" onclick="changeColor(this)" href="./livingRoom.html">living room</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-images"></i>
+                        <a class="" onclick="changeColor(this)" href="./gallary.html">gallery</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-square-phone"></i>
+                        <a class="active" onclick="changeColor(this)" href="./contect.html">contact</a>
                     </li>
                 </ul>
             </div>

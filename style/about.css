@@ -17,30 +17,34 @@
 #main_about_page_text h2{
     font-size: 1.5rem;
     font-weight: 500;
-    color: #01321f;
+    color: #000000;
     text-decoration: underline;
 }
 
+/* # */
 #main_about_page_text button{
-    background-color: #01321f;
+    background-color: #bda68f;
     color: white;
     padding: 0.5rem 3rem;
-    border: 1px solid #01321f;
+    border: 1px solid #bda68f;
     margin-top: 1rem;
     font-size: 1.3rem;
     font-weight: 500;
     border-radius: 0.4rem;
+    font-weight: 600;
 }
 
 #main_about_page_text button:hover{
-    background-color: #b8860b;
-    border: 1px solid #b8860b;
+    background-color: white;
+    color: #bda68f;
+    border: 1px solid #bda68f;
+    font-weight: 600;
 }
 #find_furniture{
     margin-top: 7rem;
 }
 #find_furniture_about_cart{
-    border: 1px solid #01321f;
+    border: 1px solid #bda68f;
     text-align: center;
     padding: 1rem 0rem;
     border-radius: 0.3rem;
@@ -55,7 +59,7 @@
 }
 
 #find_furniture_about_cart:hover{
-    background-color: #01321f;
+    background-color: #bda68f;
     color: white;
 }
 

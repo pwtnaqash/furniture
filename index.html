@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FURNITURE</title>
 
     <link rel="stylesheet" href="./style/siteOne.css">
     <link rel="stylesheet" href="./style/nav.css">
@@ -123,9 +123,10 @@
                     <i class="fa-solid fa-square-phone"></i>
                     <a class="" onclick="changeColor(this)" href="./contect.html">contact</a>
                 </li>
-                <button class="navbar-toggler"  type="button" data-bs-toggle="offcanvas"
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span  class="navbar-toggler-icon"></span>
+                    <i class="fa-solid fa-bars-staggered fa-beat-fade" style="font-size: 1.8rem;"></i>
+                    <!-- <span  class="navbar-toggler-icon"></span> -->
                 </button>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
@@ -136,7 +137,7 @@
 
 
                     <div class="offcanvas-body">
-                        <!-- Modal gallery -->
+                        <!--start video Modal gallery -->
                         <section class="">
                             <!-- Section: Images -->
                             <section class="">
@@ -179,7 +180,54 @@
 
 
                         </section>
-                        <!-- Modal gallery -->
+                        <!-- end video Modal gallery -->
+
+                        <!-- start img Modal gallery -->
+                        <section class="" style="margin-top: 2rem;">
+                            <!-- Section: Images -->
+                            <h5>Images</h5>
+                            <section class="">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                            data-ripple-color="light">
+                                            <img src="./images/cartlist1/cart1.jpg" class="w-100" />
+                                            <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal4">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                            data-ripple-color="light">
+                                            <img src="./images/cartlist1/cart4.jpg" class="w-100" />
+                                            <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal5">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 mb-4 mb-lg-0">
+                                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                            data-ripple-color="light">
+                                            <img src="./images/cartlist1/cart3.jpg" class="w-100" />
+                                            <a href="#!" data-mdb-toggle="modal" data-mdb-target="#exampleModal6">
+                                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);">
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- Section: Images -->
+
+
+                        </section>
+                        <!-- end img Modal gallery -->
+
                     </div>
                 </div>
             </div>
@@ -194,26 +242,49 @@
 
     <!-- small nav bar -->
 
-    <nav class="navbar navbar-expand-lg bg-light" id="small_nav_setting">
+    <nav class="navbar navbar-expand-lg " id="small_nav_setting">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">
+                <h1>FURNITURE</h1>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fa-solid fa-bars-staggered fa-beat-fade" style="font-size: 1.8rem;color: white;"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav" id="small_nav_link">
-                    <li class="nav-item">
-                        <a class="active" onclick="changeColor(this)" aria-current="page" href="#">Home</a>
+                    <li>
+                        <i class="fa-solid fa-house"></i>
+                        <a class="active" onclick="changeColor(this)" href="#">Home</a>
                     </li>
-                    <li class="nav-item mt-2">
-                        <a class="" onclick="changeColor(this)" href="#">Features</a>
+                    <li>
+                        <i class="fa-solid fa-circle-info"></i>
+                        <a class="" onclick="changeColor(this)" href="./about.html">about us</a>
                     </li>
-                    <li class="nav-item mt-2">
-                        <a class="" onclick="changeColor(this)" href="#">Pricing</a>
+                    <!-- <li>
+                        <i class="fa-solid fa-boxes-stacked"></i>
+                        <a class="" onclick="changeColor(this)" href="#">pages</a>
+                    </li> -->
+                    <li>
+                        <i class="fa-solid fa-shop"></i>
+                        <a class="" onclick="changeColor(this)" href="./shop.html">shop</a>
                     </li>
-                    <li class="nav-item mt-2">
-                        <a class="" onclick="changeColor(this)">Disabled</a>
+                    <li>
+                        <i class="fa-brands fa-blogger"></i>
+                        <a class="" onclick="changeColor(this)" href="./blog.html">blog</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-bed"></i>
+                        <a class="" onclick="changeColor(this)" href="./livingRoom.html">living room</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-images"></i>
+                        <a class="" onclick="changeColor(this)" href="./gallary.html">gallery</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-square-phone"></i>
+                        <a class="" onclick="changeColor(this)" href="./contect.html">contact</a>
                     </li>
                 </ul>
             </div>
@@ -299,7 +370,7 @@
 
             </div>
             <div class="col-md-6" id="girl_img_banner">
-                <img src="./images/site/bed2.jpg" alt="">
+                <img src="./images/site/royal3-removebg-preview.png" alt="">
             </div>
         </div>
     </div>
@@ -342,7 +413,7 @@
         <div class="row">
             <div class="col-md-3" id="cart_image">
                 <a href="">
-                    <img src="./images/cartlist1/cart5.jpg" alt="">
+                    <img src="./images/site/Copy of c_c_tab0012_2.jpg" alt="">
                     <h6>chair WOOD</h6>
                     <p>$120.00</p>
                     <a href="" id="Link_cart">ADD TO CART</a>
@@ -350,7 +421,7 @@
             </div>
             <div class="col-md-3" id="cart_image">
                 <a href="">
-                    <img src="./images/cartlist1/cart6.jpg" alt="">
+                    <img src="./images/site/c_c_cab0003_2.jpg" alt="">
                     <h6>LOUNGE SOFA</h6>
                     <p>$120.00</p>
                     <a href="" id="Link_cart">ADD TO CART</a>
@@ -358,7 +429,7 @@
             </div>
             <div class="col-md-3" id="cart_image">
                 <a href="">
-                    <img src="./images/cartlist1/cart7.jpg" alt="">
+                    <img src="./images/site/Copy of Curves_and_Carvings_Diningset1.jpg" alt="">
                     <h6>Deco Lamp</h6>
                     <p>$120.00</p>
                     <a href="" id="Link_cart">ADD TO CART</a>
@@ -366,7 +437,7 @@
             </div>
             <div class="col-md-3" id="cart_image">
                 <a href="">
-                    <img src="./images/cartlist1/cart8.jpg" alt="">
+                    <img src="./images/site/Curves_and_Carvings_golden_console_mirror.jpg" alt="">
                     <h6>TABLE WOOD</h6>
                     <p>$120.00</p>
                     <a href="" id="Link_cart">ADD TO CART</a>
@@ -374,7 +445,7 @@
             </div>
             <div class="col-md-3" id="cart_image">
                 <a href="">
-                    <img src="./images/cartlist1/cart1.jpg" alt="">
+                    <img src="./images/site/Curves_and_Carvings_golden_console_mirror.jpg" alt="">
                     <h6>TABLE WOOD</h6>
                     <p>$120.00</p>
                     <a href="" id="Link_cart">ADD TO CART</a>
@@ -382,7 +453,7 @@
             </div>
             <div class="col-md-3" id="cart_image">
                 <a href="">
-                    <img src="./images/cartlist1/cart3.jpg" alt="">
+                    <img src="./images/site/sofa.jpg" alt="">
                     <h6>TABLE WOOD</h6>
                     <p>$120.00</p>
                     <a href="" id="Link_cart">ADD TO CART</a>
@@ -391,6 +462,41 @@
         </div>
     </div>
     <!-- end product feature cart -->
+
+
+
+    <!-- final Grid start -->
+
+    <div class="container-fluid mt-5 pt-5" id="space_define">
+        <h1>Latest Features</h1>
+        <div class="row" id="main_final">
+            <div class="col-md-5">
+                <div class="col-md-12" id="final_img">
+                    <img src="./images/bannerBed.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="col-md-12" id="final_img_second">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="./images/site/Copy of Curves_and_Carvings_golden_console_mirror.jpg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/site/Curves_and_Carvings_Diningset1.jpg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/site/Copy of Curves_and_Carvings_golden_console_mirror.jpg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/site/Curves_and_Carvings_Diningset1.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- final Grid end -->
 
 
 
@@ -406,7 +512,7 @@
                     <h3>Lorem ipsum dolor sit.</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quidem doloribus perspiciatis
                         repellat repudiandae nulla accusantium temporibus tempore cum sed!</p>
-                    <a href=""><i class="fa-solid fa-hand-point-right fa-bounce"></i> about us</a>
+                    <a href="./about.html"><i class="fa-solid fa-hand-point-right fa-bounce"></i> about us</a>
                 </div>
             </div>
             <div class="col-md-4 col-lg-3 col-12 p-0" id="footer_text-link">
@@ -433,18 +539,23 @@
                 <ul>
                     <h2>QUICK LINKS</h2>
                     <li>
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
                         <a href="">Returns & refunds</a>
                     </li>
                     <li>
+                        <i class="fa-solid fa-basket-shopping"></i>
                         <a href="">Order tracking</a>
                     </li>
                     <li>
+                        <i class="fa-regular fa-thumbs-up"></i>
                         <a href="">checkout</a>
                     </li>
                     <li>
+                        <i class="fa-solid fa-toolbox"></i>
                         <a href="">careers</a>
                     </li>
                     <li>
+                        <i class="fa-solid fa-cart-arrow-down"></i>
                         <a href="">cart</a>
                     </li>
                 </ul>
@@ -453,18 +564,23 @@
                 <ul>
                     <h2>INFORMATION</h2>
                     <li>
+                        <i class="fa-solid fa-clipboard"></i>
                         <a href="">Privacy Policy</a>
                     </li>
                     <li>
+                        <i class="fa-regular fa-circle-check"></i>
                         <a href="">Terms Of Service</a>
                     </li>
                     <li>
+                        <i class="fa-solid fa-ban"></i>
                         <a href="">Disclaimer</a>
                     </li>
                     <li>
+                        <i class="fa-solid fa-credit-card"></i>
                         <a href="">Credits</a>
                     </li>
                     <li>
+                        <i class="fa-regular fa-circle-question"></i>
                         <a href="">FAQ</a>
                     </li>
                 </ul>
@@ -485,25 +601,8 @@
 
 
 
-    <!-- Section: Modals -->
+    <!-- Section:video Modals -->
     <section class="">
-        <!-- Modal 1 -->
-        <!-- <div class="modal fade" id="exampleModal1" tabindex="-1" style="z-index: 11;"
-            aria-labelledby="exampleModal1Label" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="ratio ratio-16x9">
-                        <iframe src="./video/dumbellMain.mp4" title="YouTube video" allowfullscreen></iframe>
-                    </div>
-
-                    <div class="text-center py-3">
-                        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
-                            Close
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
         <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModal2Label"
             aria-hidden="true">
@@ -556,7 +655,65 @@
             </div>
         </div>
     </section>
-    <!-- Section: Modals -->
+    <!-- Section: end video Modals -->
+
+
+
+    <!-- Section: start images Modals -->
+    <section class="">
+
+        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModal2Label"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="ratio ratio-16x9">
+                        <img src="./images/cartlist1/cart1.jpg" title="YouTube video" allowfullscreen></img>
+                    </div>
+
+                    <div class="text-center py-3">
+                        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2 -->
+        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModal2Label"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="ratio ratio-16x9">
+                        <img src="./images/cartlist1/cart4.jpg" title="YouTube video" allowfullscreen></img>
+                    </div>
+
+                    <div class="text-center py-3">
+                        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3 -->
+        <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModal3Label"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="ratio ratio-16x9">
+                        <img src="./images/cartlist1/cart3.jpg" title="YouTube video" allowfullscreen></img>
+                    </div>
+
+                    <div class="text-center py-3">
+                        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section: end images Modals -->
 
 
 

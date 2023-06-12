@@ -12,7 +12,7 @@
 #contact_page_text h2{
     font-size: 1.9rem;
     font-weight: 500;
-    color: #01321f;
+    color: #000000;
     text-decoration: underline;
 }
 #contact_page_text_p{
@@ -26,11 +26,11 @@
     padding: 0.6rem 1rem 0rem 1rem;
     margin-top: 1rem;
     /* background-color: #b8860b; */
-    border: 1px solid #01321f;
+    border: 1px solid #bda68f;
     border-radius: 0.4rem;
 }
 #time_setting:hover{
-    background-color: #01321f;
+    background-color: #bda68f;
 }
 #time_setting:hover #time_setting_text h6{
     color: white;
@@ -41,7 +41,7 @@
 
 #time_setting_icon i{
     font-size: 2rem;
-    color: #01321f;
+    color: #bda68f;
 }
 #time_setting_text{
     line-height: 0.6rem;
@@ -49,7 +49,7 @@
 }
 #time_setting_text h6{
     font-weight: 600;
-    color: #01321f;
+    color: #bda68f;
 }
 #time_setting_text p{
     font-size: 0.8rem;
@@ -58,7 +58,7 @@
 #contact_map{
     margin-top: 5rem;
     width: 100%;
-    border: 1px solid #01321f;
+    border: 1px solid #bda68f;
     padding: 1rem;
     border-radius: 0.4rem;
     /* background-color: #b8860b; */
